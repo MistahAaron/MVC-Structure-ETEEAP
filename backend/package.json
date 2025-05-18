@@ -1,0 +1,35 @@
+{
+  "name": "eteeap-tracking-system",
+  "version": "1.0.0",
+  "description": "test express",
+  "license": "ISC",
+  "author": "Capstone Intellects",
+  "type": "commonjs",
+  "main": "test.js",
+  "scripts": {
+    "test": "jest",
+    "start": "NODE_PATH=./ node backend/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^2.2.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "D": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "ejst": "^1.0.2",
+    "express": "^4.21.2",
+    "inquirer": "^12.5.0",
+    "jest": "^29.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "libreoffice-convert": "^1.6.1",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.12.2",
+    "multer": "^1.4.5-lts.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.14.0"
+  }
+}
